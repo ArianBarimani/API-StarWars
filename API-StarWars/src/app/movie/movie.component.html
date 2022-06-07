@@ -1,0 +1,43 @@
+
+<div class="container">
+    <div class="row row-cols-3">
+        <div class="col">
+            <div>
+                <p>{{film.title}}</p>
+                <img class="logo" src="assets/img/{{film.episode_id}}.png" alt="">
+            </div>
+        </div>
+        <div class="col">
+            <p>{{film.opening_crawl}}</p>
+        </div>
+
+        <div class="col">
+            <p>Director: {{film.director}}</p>
+            <p>Productor: {{film.producer}}</p>
+            <p>Release date: {{film.release_date}}</p>
+            <table>
+                <tr>
+                    <td>
+                        <button routerLink="/character">Character</button>
+                    </td>
+                    <td>
+                        <button>Vehicles</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Planet</button>
+                    </td>
+                    <td>
+                        <button>Services</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button>StartShips</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
